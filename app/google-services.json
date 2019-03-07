@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292319584156",
+    "firebase_url": "https://phone-distraction.firebaseio.com",
+    "project_id": "phone-distraction",
+    "storage_bucket": "phone-distraction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292319584156:android:55fffa73b665600c",
+        "android_client_info": {
+          "package_name": "org.baysidehighschool.testep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292319584156-70m481fo1teelb7p9hr738skkmge358d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.baysidehighschool.testep",
+            "certificate_hash": "2406471494f49d3552ebd2f07e0d6e8ab3460b16"
+          }
+        },
+        {
+          "client_id": "292319584156-51t8n89t3mttecgo33tda4fqode3se67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdiSMfufYdMOOa9vbzyLWgZUpuTm0mCF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292319584156-51t8n89t3mttecgo33tda4fqode3se67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
