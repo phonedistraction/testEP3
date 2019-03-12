@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">testEP</string>
     <string name="password" />
+    <string name="period_1">Period 1</string>
+    <string name="period_4">Period 4</string>
+    <string name="period_5">Period 5</string>
+    <string name="period_3">Period 3</string>
+    <string name="period_2">Period 2</string>
 </resources>
