@@ -12,8 +12,7 @@ public class profile extends AppCompatActivity
 {
     private TextView studentName, studentID;
     private CircleImageView profileImage;
-
-    private DatabaseReference profileUser;
+    
     private FirebaseAuth mAuth;
 
     private String currentUserId;
