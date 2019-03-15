@@ -53,21 +53,23 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/student"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="60dp"
                         android:text="Student"
                         android:textSize="25sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="10dp"
                         android:text="OSIS number"
-                        android:textSize="17sp"/>
+                        android:textSize="17sp" />
 
 
                 </LinearLayout>
