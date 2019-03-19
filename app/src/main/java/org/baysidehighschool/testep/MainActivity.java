@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     ProgressDialog PD;
 
 
-    @Override    protected void onCreate(Bundle savedInstanceState) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -35,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         btnSignOut = (Button) findViewById(R.id.sign_out_button);
 
         btnSignOut.setOnClickListener(new View.OnClickListener() {
-            @Override            public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
                 auth.signOut();
                 FirebaseAuth.AuthStateListener authListener = new FirebaseAuth.AuthStateListener() {
                     @Override
@@ -50,12 +52,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
 
-    @Override    protected void onResume() {
+    @Override protected void onResume() {
         if (auth.getCurrentUser() == null) {
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
         }
         super.onResume();
+
     }
 }
