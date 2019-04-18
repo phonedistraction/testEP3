@@ -20,4 +20,5 @@ public class Class extends AppCompatActivity {
         TextView textView = findViewById(R.id.editText);
         textView.setText(currentDate);
     }
+
 }

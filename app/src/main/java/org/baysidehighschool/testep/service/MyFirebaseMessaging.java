@@ -12,7 +12,7 @@ import com.google.firebase.messaging.RemoteMessage;
 import org.baysidehighschool.testep.MainActivity;
 import org.baysidehighschool.testep.R;
 
-public class MyFirebaseMessage extends FirebaseMessagingService {
+public class MyFirebaseMessaging extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);

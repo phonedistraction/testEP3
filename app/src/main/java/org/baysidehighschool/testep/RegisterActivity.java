@@ -47,9 +47,11 @@ public class RegisterActivity extends AppCompatActivity {
         btnLogin = (Button) findViewById(R.id.sign_in_button);
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override            public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
                 final String email = inputEmail.getText().toString();
                 final String password = inputPassword.getText().toString();
+
 
                 try {
                     if (password.length() > 0 && email.length() > 0) {
@@ -84,9 +86,13 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override            public void onClick(View view) {
-                finish();
+
+        Button btn = (Button)findViewById(R.id.sign_up_button);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
         });
 

@@ -38,16 +38,9 @@ dependencies {
     com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
 
     //Add Library
-    implementation 'com.google.firebase:firebase-messaging:17.6.1'
+    implementation 'com.google.firebase:firebase-messaging:17.6.0'
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 
 }
 apply plugin: 'com.google.gms.google-services'
-
-
-
-
-
-
-

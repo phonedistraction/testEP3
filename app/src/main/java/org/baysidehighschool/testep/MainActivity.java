@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         btnSignOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                openActivity2();
+
                 auth.signOut();
                 FirebaseAuth.AuthStateListener authListener = new FirebaseAuth.AuthStateListener() {
                     @Override
@@ -52,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public void openActivity2(){
+        Intent intent = new Intent (this,LoginActivity.class);
+        startActivity(intent);
     }
 
     @Override protected void onResume() {

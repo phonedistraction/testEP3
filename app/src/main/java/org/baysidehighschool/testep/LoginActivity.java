@@ -85,6 +85,16 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        Button btn = (Button)findViewById(R.id.sign_in_button);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, Class.class));
+            }
+        });
+
+
     }
 
     @Override    protected void onResume() {
@@ -94,4 +104,5 @@ public class LoginActivity extends AppCompatActivity {
         }
         super.onResume();
     }
+
 }
